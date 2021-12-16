@@ -1,5 +1,5 @@
 {
-  "name": "@fdq/one",
+  "name": "@fdqfe/one",
   "version": "0.0.1",
   "description": "> TODO: description",
   "author": "Fandeqing <18341893243@163.com>",
@@ -23,5 +23,5 @@
   "dependencies": {
     "axios": "^0.19.2"
   },
-  "gitHead": "b80147ed3fc5ab1d8e11ecdc9bee7f3f2db886da"
+  "gitHead": "1cc9a44d896acb7f4ccce23af66129a63bd56b30"
 }
