@@ -16,9 +16,12 @@
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "repository": {
     "type": "git",
     "url": "git@github.com:Fandeqing/materials.git"
   },
-  "gitHead": "7a2b6eb94c6a2b98d4e1e2ac28a4fb0ad48c05f5"
+  "gitHead": "b565d5ebb5f95eba3aaa5fc5a8f97a33900d648b"
 }
