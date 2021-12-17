@@ -3,6 +3,6 @@
 module.exports = three;
 
 function three() {
-  console.log('three')
+  console.log('three!')
     // TODO
 }
