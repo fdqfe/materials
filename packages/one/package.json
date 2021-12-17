@@ -13,19 +13,21 @@
   "files": [
     "lib"
   ],
-  "publishConfig": {
-    "access": "public"
-  },
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:Fandeqing/materials.git"
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "release": "release-it"
   },
   "dependencies": {
     "@fdqfe/two": "^0.0.7",
     "axios": "^0.19.2"
   },
-  "gitHead": "c5a11eead943d8e14477b03ef7f271e2d7969ae1"
+  "publishConfig": { //lerna
+    "access": "public"
+  },
+  "repository": { //lerna relase-it
+    "type": "git",
+    "url": "git@github.com:Fandeqing/materials.git"
+  },
+  "gitHead": "c5a11eead943d8e14477b03ef7f271e2d7969ae1",
+  "relase-it": {}
 }
