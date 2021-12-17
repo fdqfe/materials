@@ -1,13 +1,18 @@
-0 silly argv { _: [ 'create' ],
+0 silly argv { _: [ 'version' ],
 0 silly argv   lernaVersion: '4.0.0',
-0 silly argv   '$0': 'node_modules/.bin/lerna',
-0 silly argv   name: 'one' }
+0 silly argv   '$0': 'node_modules/.bin/lerna' }
 1 notice cli v4.0.0
-2 verbose rootPath /Users/fandeqing/Desktop/sourceCode/TEst/lernaTest
-3 error Error: Command failed with exit code 1: git config --get user.name
-3 error     at makeError (/Users/fandeqing/Desktop/sourceCode/TEst/lernaTest/node_modules/execa/lib/error.js:60:11)
-3 error     at Function.module.exports.sync (/Users/fandeqing/Desktop/sourceCode/TEst/lernaTest/node_modules/execa/index.js:194:17)
-3 error     at Object.execSync (/Users/fandeqing/Desktop/sourceCode/TEst/lernaTest/node_modules/@lerna/child-process/index.js:39:16)
-3 error     at CreateCommand.gitConfig (/Users/fandeqing/Desktop/sourceCode/TEst/lernaTest/node_modules/@lerna/create/index.js:181:25)
-3 error     at CreateCommand.initialize (/Users/fandeqing/Desktop/sourceCode/TEst/lernaTest/node_modules/@lerna/create/index.js:103:46)
-3 error     at Promise.resolve.then (/Users/fandeqing/Desktop/sourceCode/TEst/lernaTest/node_modules/@lerna/command/index.js:274:24)
+2 verbose rootPath /Users/fandeqing/Desktop/fdqProject/materials
+3 info versioning independent
+4 error JSONError: Unexpected token "/" (0x2F) in JSON at position 422 while parsing near "...\" && exit 1\"\n  },\n  // \"repository\": {\n ..." in packages/one/package.json
+4 error
+4 error [0m [90m 20 |[39m     [32m"test"[39m[33m:[39m [32m"echo \"Error: run tests from root\" && exit 1"[39m[0m
+4 error [0m [90m 21 |[39m   }[33m,[39m[0m
+4 error [0m[31m[1m>[22m[39m[90m 22 |[39m   [90m// "repository": {[39m[0m
+4 error [0m [90m    |[39m   [31m[1m^[22m[39m[0m
+4 error [0m [90m 23 |[39m   [90m//   "type": "git",[39m[0m
+4 error [0m [90m 24 |[39m   [90m//   "url": "git@github.com:Fandeqing/materials.git"[39m[0m
+4 error [0m [90m 25 |[39m   [90m// },[39m[0m
+4 error
+4 error     at parseJson (/Users/fandeqing/Desktop/fdqProject/materials/node_modules/parse-json/index.js:29:21)
+4 error     at parse (/Users/fandeqing/Desktop/fdqProject/materials/node_modules/load-json-file/index.js:15:9)
