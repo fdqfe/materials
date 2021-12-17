@@ -21,10 +21,13 @@
     "@fdqfe/two": "^0.0.7",
     "axios": "^0.19.2"
   },
-  "publishConfig": { //lerna
+  "devDependencies": {
+    "release-it": "^14.11.5"
+  },
+  "publishConfig": {
     "access": "public"
   },
-  "repository": { //lerna relase-it
+  "repository": {
     "type": "git",
     "url": "git@github.com:Fandeqing/materials.git"
   },
