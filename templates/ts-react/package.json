@@ -1,0 +1,28 @@
+{
+  "keywords": [
+    "react"
+  ],
+  "files": [
+    "src",
+    "lib"
+  ],
+  "main": "./lib/$name.umd.js",
+  "module": "./lib/$name.es.js",
+  "exports": {
+    ".": {
+      "import": "./lib/$name.es.js",
+      "require": "./lib/$name.umd.js"
+    }
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-react",
+      "@babel/preset-typescript"
+    ]
+  },
+  "types": "lib/index.d.ts",
+  "publishConfig": {
+    "access": "public"
+  }
+}
