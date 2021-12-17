@@ -1,6 +1,6 @@
 {
   "name": "@fdqfe/one",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "> TODO: description",
   "author": "Fandeqing <18341893243@163.com>",
   "homepage": "",
@@ -24,7 +24,7 @@
     "url": "git@github.com:Fandeqing/materials.git"
   },
   "dependencies": {
-    "@fdqfe/two": "^0.0.5",
+    "@fdqfe/two": "^0.0.6",
     "axios": "^0.19.2"
   },
   "gitHead": "b565d5ebb5f95eba3aaa5fc5a8f97a33900d648b"
