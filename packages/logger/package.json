@@ -1,0 +1,51 @@
+{
+  "name": "@fdqfe/logger",
+  "version": "1.0.0",
+  "description": "Now I’m the model of a modern major general / The venerated Virginian veteran whose men are all / Lining up, to put me up on a pedestal / Writin’ letters to relatives / Embellishin’ my elegance and eloquence / But the elephant is in the room / The truth is in ya face when ya hear the British cannons go / BOOM",
+  "keywords": [
+    "react"
+  ],
+  "author": "Fandeqing <18341893243@163.com>",
+  "license": "ISC",
+  "main": "./lib/logger.umd.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "src",
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fdqfe/materials.git"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build --config vite.config.js && rimraf lib/src",
+    "release": "release-it"
+  },
+  "bugs": {
+    "url": "https://github.com/fdqfe/materials/issues"
+  },
+  "homepage": "https://github.com/fdqfe/materials#readme",
+  "module": "./lib/logger.es.js",
+  "exports": {
+    ".": {
+      "import": "./lib/logger.es.js",
+      "require": "./lib/logger.umd.js"
+    }
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-react",
+      "@babel/preset-typescript"
+    ]
+  },
+  "types": "lib/index.d.ts",
+  "publishConfig": {
+    "access": "public"
+  },
+  "release-it": {}
+}

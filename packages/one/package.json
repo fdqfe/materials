@@ -15,7 +15,8 @@
   ],
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1",
-    "release": "release-it"
+    "release": "release-it",
+    "dev": "vite"
   },
   "dependencies": {
     "@fdqfe/two": "^0.0.7",
