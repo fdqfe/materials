@@ -1,0 +1,1 @@
+{"version":3,"file":"logger.umd.js","sources":["../src/index.tsx"],"sourcesContent":["import React from 'react'\n\nexport default\nfunction App (): JSX.Element | null {\n  return <p>demo</p>\n}\n"],"names":[],"mappings":"0WAGoC,gCAC1B,IAAD,KAAG"}

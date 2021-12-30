@@ -1,0 +1,2 @@
+(function(e,t){typeof exports=="object"&&typeof module!="undefined"?module.exports=t(require("react")):typeof define=="function"&&define.amd?define(["react"],t):(e=typeof globalThis!="undefined"?globalThis:e||self,e.Logger=t(e.React))})(this,function(e){"use strict";function t(n){return n&&typeof n=="object"&&"default"in n?n:{default:n}}var u=t(e);function f(){return u.default.createElement("p",null,"demo")}return f});
+//# sourceMappingURL=logger.umd.js.map
