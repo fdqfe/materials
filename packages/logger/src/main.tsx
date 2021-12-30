@@ -2,4 +2,5 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import App from './'
 
-ReactDOM.render(<App/>, document.querySelector('#root'))
+console.log('--')
+ReactDOM.render(<App />, document.querySelector('#root'))
